@@ -1,0 +1,44 @@
+name: Feature Request / 功能建议
+description: 提出符合项目边界的功能、文档或架构建议
+title: "[Feature] "
+labels:
+  - enhancement
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这里适合提交 schema、policy、audit、文档或 mock 演示层相关建议。
+        不要提交公共空间实时识别、民间数据库接入或真实生物特征模板相关请求。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你的建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: 为什么它不越界
+      description: 说明它为什么仍符合 COMPLIANCE_BOUNDARY.md
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 你考虑过的替代方案
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 docs/COMPLIANCE_BOUNDARY.md
+          required: true
+        - label: 该建议不要求引入真实人脸模板、民间曝光源或公共空间实时识别
+          required: true

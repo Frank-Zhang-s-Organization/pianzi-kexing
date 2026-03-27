@@ -1,4 +1,7 @@
-# CONTRIBUTING
+# CONTRIBUTING / 贡献指南
+
+> 中文优先；英文 PR、issue 和文档补充同样欢迎。  
+> Chinese-first; English PRs, issues, and documentation contributions are welcome.
 
 欢迎贡献，但请先理解这个项目的前提：
 

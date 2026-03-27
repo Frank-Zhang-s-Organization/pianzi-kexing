@@ -1,4 +1,7 @@
-# SECURITY
+# SECURITY / 安全说明
+
+> 中文优先；如需英文协作，可直接用英文提交 issue 或说明。  
+> Chinese-first, but English reports are welcome.
 
 ## 安全与合规问题如何反馈
 

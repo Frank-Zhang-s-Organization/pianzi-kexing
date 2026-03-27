@@ -1,0 +1,50 @@
+name: Bug Report / 缺陷报告
+description: 报告代码、文档或示例中的实际缺陷
+title: "[Bug] "
+labels:
+  - bug
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只提交与当前研究骨架、文档、schema、policy 或示例数据相关的缺陷。
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题概述
+      description: 简明描述实际出现的问题
+      placeholder: 例如：`validate-manifest` 对某类非法字段没有给出拒绝原因
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 尽量给出可重复的步骤
+      placeholder: |
+        1. 运行 ...
+        2. 输入 ...
+        3. 观察到 ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 操作系统、Python 版本、运行命令等
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 README 和 SUPPORT.md
+          required: true
+        - label: 这个问题不涉及将项目导向公共空间实时识别或真实生物特征处理
+          required: true

@@ -1,0 +1,36 @@
+name: Compliance Concern / 合规边界问题
+description: 报告边界、合规、误报治理或高风险设计问题
+title: "[Compliance] "
+labels:
+  - compliance
+  - governance
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        如果你认为某个实现、文档或讨论正在把项目推向危险方向，请在这里提出。
+  - type: textarea
+    id: concern
+    attributes:
+      label: 你发现的边界或合规问题
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险说明
+      description: 请说明它为什么可能造成误报、越界或滥用
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: 建议的修正方向
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 SECURITY.md 和 docs/COMPLIANCE_BOUNDARY.md
+          required: true

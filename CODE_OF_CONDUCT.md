@@ -1,4 +1,7 @@
-# Code of Conduct
+# Code of Conduct / 协作准则
+
+> 中文优先；英文讨论同样欢迎。  
+> Chinese-first, English discussion is also welcome.
 
 ## 我们希望这里是什么样的协作环境
 

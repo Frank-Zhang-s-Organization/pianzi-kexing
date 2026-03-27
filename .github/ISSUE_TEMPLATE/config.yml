@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全与合规问题 / Security & Compliance
+    url: https://github.com/Frank-Zhang-s-Organization/pianzi-kexing/blob/main/SECURITY.md
+    about: 涉及高风险能力、越界实现、数据合法性或潜在滥用风险时，请先阅读 SECURITY.md。
+  - name: 使用与协作说明 / Support
+    url: https://github.com/Frank-Zhang-s-Organization/pianzi-kexing/blob/main/SUPPORT.md
+    about: 提 issue 前先阅读 SUPPORT.md，确认问题是否属于当前项目边界。

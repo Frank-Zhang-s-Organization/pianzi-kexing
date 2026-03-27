@@ -1,4 +1,7 @@
-# SUPPORT
+# SUPPORT / 支持说明
+
+> 中文优先；如果你更习惯英文，也可以直接用英文提问。  
+> Chinese-first; English support requests are also acceptable.
 
 ## 先看哪里
 
