@@ -1,0 +1,28 @@
+[
+  {
+    "subject_id": "official-demo-001",
+    "source_type": "official_wanted_notice",
+    "source_url": "https://example.gov.cn/notices/demo-001",
+    "published_at": "2026-03-20",
+    "jurisdiction": "CN",
+    "legal_basis": "公开通报示例",
+    "official_source_confirmed": true,
+    "supports_retraction": true,
+    "contains_biometric_template": false,
+    "uses_crowdsourced_accusation": false,
+    "status": "active"
+  },
+  {
+    "subject_id": "rejected-demo-002",
+    "source_type": "crowdsourced_expose_post",
+    "source_url": "https://example-social.test/post/2",
+    "published_at": "2026-03-21",
+    "jurisdiction": "CN",
+    "legal_basis": "",
+    "official_source_confirmed": false,
+    "supports_retraction": false,
+    "contains_biometric_template": true,
+    "uses_crowdsourced_accusation": true,
+    "status": "active"
+  }
+]
